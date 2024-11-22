@@ -2,9 +2,7 @@
 
 # URL to production
 
-
-
-URL: 
+URL: https://advanced-software-engineering-6oj4rrsdxdctxut2gmvnu8.streamlit.app/
 
 # Analyzation of geo data
 
