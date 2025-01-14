@@ -6,4 +6,4 @@ from charging.domain.aggregates.charging_station import ChargingStation
 
 class ChargingStationRepository:
     def find_by_postal_code(self, postal_code: PostalCode) -> List[ChargingStation]:
-        pass
+        raise NotImplementedError

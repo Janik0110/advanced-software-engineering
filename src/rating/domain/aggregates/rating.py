@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from feedback.domain.exceptions.invalid_rating_exception import InvalidRatingException
+from src.rating.domain.exceptions.invalid_rating_exception import InvalidRatingException
 
 
 @dataclass(frozen=True)
