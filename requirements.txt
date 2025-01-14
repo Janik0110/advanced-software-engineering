@@ -12,3 +12,4 @@ streamlit_folium
 Folium~=0.19.3
 branca~=0.8.1
 pytest~=8.3.4
+coverage~=7.6.10
