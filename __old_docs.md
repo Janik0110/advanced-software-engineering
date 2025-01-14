@@ -1,4 +1,4 @@
-![Local Deployment Image](image.png)
+![Local Deployment Image](img/image.png)
 
 # URL to production
 
