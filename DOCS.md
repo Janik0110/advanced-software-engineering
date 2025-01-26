@@ -107,7 +107,7 @@ The UI for the Electric Charging Stations project was designed to enhance user i
 
 ![use_case_diagram.png](img/2.jpeg)
 
-# Technical Improvements:
+# Technical Improvements
 **Streamlit Integration**: Simplified UI creation and testing.
 
 **Backend Updates**: Added missing functionality to handle user ratings, ensuring modular and clean code structure.
