@@ -1,12 +1,16 @@
 from dataclasses import dataclass
+from uuid import UUID
 
 from src.rating.domain.exceptions.invalid_rating_exception import InvalidRatingException
 
 
 @dataclass(frozen=True)
 class Rating:
+    id: UUID
     value: int
     comment: str
+
+    charging_station_id: UUID
 
     def __post_init__(self):
         if not (1 <= self.value <= 5):
