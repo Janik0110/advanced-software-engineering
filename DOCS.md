@@ -117,6 +117,8 @@ Often we had to think deeply about what and how our code should be implemented. 
 
 # Project Conclusion
 
-We are currently still missing the UI implementation. We have implemented the backend logic and the database integration. We have also written tests for the core functionalities of the platform. We plan to continue working on the project and complete the UI implementation in the future.
+The "ChargeHub Berlin" project successfully developed a user-friendly system for managing electric charging stations by integrating domain-driven design (DDD), test-driven development (TDD), and user-focused modeling.
 
-As a team we have learned a lot about test-driven development, domain-driven design, and data cleaning and integration. We have also improved our collaboration and communication skills by working together on this project.
+Key features such as searching stations, submitting ratings, and generating reports were implemented with a modular backend and an intuitive UI. SQLite was used for data storage, ensuring consistency and reliability. Real-world datasets were integrated to validate system accuracy and functionality.
+
+The project highlights how systematic engineering practices and innovative tools can deliver scalable, reliable, and practical solutions tailored to user needs.
