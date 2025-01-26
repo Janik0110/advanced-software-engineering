@@ -107,13 +107,17 @@ def test_invalid_postal_code(value: str):
 ## 5. Backend-Architrcture
 The backend architecture is built using Python and Streamlit, providing core services for searching charging stations, submitting ratings, and generating reports. Data is processed in-memory for simplicity, with the flexibility to integrate SQLite for persistent storage in the future.
 
-## 6. UI Implementation
+## 6. UI Implementation and Error Resolution
 
 The UI for the Electric Charging Stations project was designed to enhance user interaction, focusing on features like searching for charging stations by postal code and adding ratings to stations. The UI consists of three main sections: searching, rating, and reporting. It uses Streamlit widgets for user-friendly interaction and a clean, responsive design. 
 
 **Search Charging Stations (Search CS) Use Case**: The "Search Charging Stations" feature allows users to locate nearby stations by entering a location (e.g., city or ZIP code) and selecting a station type (fast or normal charging). The system processes these inputs, queries the database, and displays matching results, including station details like name, location, and type. This functionality ensures user convenience and highlights the system's ability to deliver accurate, location-based results efficiently.
 
 **Add a Rating**: Users can rate charging stations on a scale of 1 to 5, encouraging user feedback and improving service quality.
+
+**Observed Error**
+
+An AttributeError occurred in the backend due to the missing add_rating method. This was resolved by implementing the necessary backend logic.
 
 
 ![UI Example 1](img/1.jpeg)
