@@ -51,13 +51,18 @@ We first created the domain event flow diagram to visualize the interactions bet
 
 #### 1. Search Charging Stations
 
-![Domain Event Flow](img/domain_event_flow.jpeg)
-![Bounded Context](img/bounded_context.jpeg)
+\begin{center}
+    \includegraphics[width=\textwidth]{img/domain_event_flow.jpeg}
+\end{center}
+
+![Bounded Context / Search CS + Rate CS](img/bounded_context.jpeg)
 
 #### 2. Rate Charging Stations
 
-![domain_event_flow.jpeg](img/SearchChargingStationSequence.jpg)
-![bounded_context.jpeg](img/ChargingstationSearch.jpg)
+\begin{center}
+    \includegraphics[width=\textwidth]{img/SearchChargingStationSequence.jpg}
+\end{center}
+![Bounded Context / Search CS](img/ChargingstationSearch.jpg){ width=80% }
 
 ![Charging Context Test Coverage and Structure](img/charging_context_ide.png)
 
