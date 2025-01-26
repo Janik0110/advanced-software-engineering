@@ -85,7 +85,8 @@ The UI for the Electric Charging Stations project was designed to enhance user i
 
 **Search Functionality**: Users can search for nearby charging stations by entering a postal code. The system returns a list of stations, displaying their name and location.
 Add a Rating: Users can rate charging stations on a scale of 1 to 5, encouraging user feedback and improving service quality.
-
+![use_case_diagram.png](img/1.jpeg)
+![use_case_diagram.png](img/2.jpeg)
 **Observed Error**: An AttributeError occurred in the backend due to the missing add_rating method. This was resolved by implementing the necessary backend logic.
 
 # Technical Improvements:
