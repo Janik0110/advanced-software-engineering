@@ -79,7 +79,21 @@ def test_invalid_postal_code(value: str):
     """Test invalid postal code"""
     is_invalid_postal_code(value)
 ```
+## 5. UI Implementation and Error Resolution
 
+The UI for the Electric Charging Stations project was designed to enhance user interaction, focusing on features like searching for charging stations by postal code and adding ratings to stations.
+
+**Search Functionality**: Users can search for nearby charging stations by entering a postal code. The system returns a list of stations, displaying their name and location.
+Add a Rating: Users can rate charging stations on a scale of 1 to 5, encouraging user feedback and improving service quality.
+
+**Observed Error**: An AttributeError occurred in the backend due to the missing add_rating method. This was resolved by implementing the necessary backend logic.
+
+# Technical Improvements:
+**Streamlit Integration**: Simplified UI creation and testing.
+
+**Backend Updates**: Added missing functionality to handle user ratings, ensuring modular and clean code structure.
+
+    
 # Technical challenges
 
 ## Challenge 1: Data Cleaning and Integration
