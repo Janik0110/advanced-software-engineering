@@ -22,9 +22,9 @@ In the following diagram, we present the use cases that ChargeHub Berlin will su
 
 1. **Find Charging Stations**: Users can search for charging stations in Berlin by entering a postal code. The platform will display a map with the location of the charging stations, along with additional information such as the charging type and availability.
    
-3. **Rating Charging Stations**: Users can rate charging stations in Berlin based on their personal experiences. This feature allows users to share feedback and recommendations with the community, helping others make informed decisions about where to charge their EVs.
+2. **Rating Charging Stations**: Users can rate charging stations in Berlin based on their personal experiences. This feature allows users to share feedback and recommendations with the community, helping others make informed decisions about where to charge their EVs.
 
-![use_case_diagram.png](img/use_case_diagram.png)
+![Use Case Diagram](img/use_case_diagram.png)
 
 For the implementation we used the following technologies:
 
@@ -39,21 +39,27 @@ For the implementation we used the following technologies:
 
 ## Project Development Documentation
 
+The general project structure is inspired by the Clean Architecture and Domain-Driven Design (DDD) principles. So for each module (bounded context) we have a separate folder in the project structure. The main modules are `charging`, `rating` and `shared_kernel`. Each module is then (inspired by CA or Onion Architecture) divided into `application`, `domain` and `infrastructure`. The `shared_kernel` module contains shared entities and value objects that are used across different modules.
+
+An example of the project structure is shown below (charging module):
+
+![Project Structure](img/project_structure.png)
+
 ### 1. Domain Modeling and Event Structure
 
 We first created the domain event flow diagram to visualize the interactions between the different components of the system. This diagram helped us identify the key events and data flows that would be essential for the platform's functionality.
 
 #### 1. Search Charging Stations
 
-![domain_event_flow.jpeg](img/domain_event_flow.jpeg)
-![bounded_context.jpeg](img/bounded_context.jpeg)
+![Domain Event Flow](img/domain_event_flow.jpeg)
+![Bounded Context](img/bounded_context.jpeg)
 
 #### 2. Rate Charging Stations
 
 ![domain_event_flow.jpeg](img/SearchChargingStationSequence.jpg)
 ![bounded_context.jpeg](img/ChargingstationSearch.jpg)
 
-![charging_context_ide.png](img/charging_context_ide.png)
+![Charging Context Test Coverage and Structure](img/charging_context_ide.png)
 
 ### 2. Test-Driven Development (TDD)
 
@@ -110,9 +116,9 @@ The UI for the Electric Charging Stations project was designed to enhance user i
 **Add a Rating**: Users can rate charging stations on a scale of 1 to 5, encouraging user feedback and improving service quality.
 
 
-![use_case_diagram.png](img/1.jpeg)
+![UI Example 1](img/1.jpeg)
 
-![use_case_diagram.png](img/2.jpeg)
+![UI Example 2](img/2.jpeg)
 
 # Technical Improvements
 **Streamlit Integration**: Simplified UI creation and testing.
