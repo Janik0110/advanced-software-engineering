@@ -80,18 +80,22 @@ def test_invalid_postal_code(value: str):
     """Test invalid postal code"""
     is_invalid_postal_code(value)
 ```
-## 5. UI Implementation and Error Resolution
 
-The UI for the Electric Charging Stations project was designed to enhance user interaction, focusing on features like searching for charging stations by postal code and adding ratings to stations.
+## 5. Backend-Architrcture
+The backend architecture is built using Python and Streamlit, providing core services for searching charging stations, submitting ratings, and generating reports. Data is processed in-memory for simplicity, with the flexibility to integrate SQLite for persistent storage in the future.
+
+## 6. UI Implementation and Error Resolution
+
+The UI for the Electric Charging Stations project was designed to enhance user interaction, focusing on features like searching for charging stations by postal code and adding ratings to stations. The UI consists of three main sections: searching, rating, and reporting. It uses Streamlit widgets for user-friendly interaction and a clean, responsive design. 
 
 **Search Functionality**: Users can search for nearby charging stations by entering a postal code. The system returns a list of stations, displaying their name and location.
 
 **Add a Rating**: Users can rate charging stations on a scale of 1 to 5, encouraging user feedback and improving service quality.
+
+
 ![use_case_diagram.png](img/1.jpeg)
 
 ![use_case_diagram.png](img/2.jpeg)
-
-**Observed Error**: An AttributeError occurred in the backend due to the missing add_rating method. This was resolved by implementing the necessary backend logic.
 
 # Technical Improvements:
 **Streamlit Integration**: Simplified UI creation and testing.
