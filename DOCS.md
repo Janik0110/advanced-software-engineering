@@ -18,10 +18,13 @@ In the following diagram, we present the use cases that ChargeHub Berlin will su
 For the implementation we used the following technologies:
 
 - **Communication**: Google Meet, WhatsApp, GitHub
-- **IDE**: PyCharm Professional
+- **Framework**: Streamlit for rapid UI development and integration with Python
 - **Programming Languages**: Python
+- **IDE**: PyCharm Professional
+- **Frontend**: Streamlit widgets for forms and interactions; minimal HTML/CSS and Bootstrap for styling
 - **Libraries**: pytest, streamlit
-- **Modeling**: visual-paradigm.com, miro.com
+- **Deployment**: Local testing with Streamlit, scalable to cloud platforms like Streamlit Cloud
+- **Modeling**: Pandas and NumPy for data processing, visual-paradigm.com, miro.com
 
 ## Project Development Documentation
 
