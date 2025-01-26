@@ -2,7 +2,16 @@
 geometry: margin=1in
 ---
 
-# ChargeHub Berlin
+# Charge Hub Berlin | Group 11
+Muhammad Ahsan - 105997
+
+Janik Tilgner - 916531
+
+Nahid Taherkhani - 106597
+
+Urwa Maqsood - 106425
+
+
 
 ## Project Overview
 
