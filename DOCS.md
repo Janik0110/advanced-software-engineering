@@ -117,7 +117,7 @@ The UI for the Electric Charging Stations project was designed to enhance user i
 
 **Observed Error**
 
-An AttributeError occurred in the backend due to the missing add_rating method. This was resolved by implementing the necessary backend logic.
+An AttributeError occurred in the backend due to the missing `add_rating` method. This was resolved by implementing the necessary backend logic.
 
 
 ![UI Example 1](img/1.jpeg)
