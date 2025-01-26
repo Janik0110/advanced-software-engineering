@@ -43,8 +43,15 @@ For the implementation we used the following technologies:
 
 We first created the domain event flow diagram to visualize the interactions between the different components of the system. This diagram helped us identify the key events and data flows that would be essential for the platform's functionality.
 
+#### 1. Search Charging Stations
+
 ![domain_event_flow.jpeg](img/domain_event_flow.jpeg)
 ![bounded_context.jpeg](img/bounded_context.jpeg)
+
+#### 2. Rate Charging Stations
+
+![domain_event_flow.jpeg](img/SearchChargingStationSequence.jpg)
+![bounded_context.jpeg](img/ChargingstationSearch.jpg)
 
 ![charging_context_ide.png](img/charging_context_ide.png)
 
