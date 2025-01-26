@@ -11,7 +11,8 @@ ChargeHub Berlin is an interactive and user-friendly platform designed to suppor
 In the following diagram, we present the use cases that ChargeHub Berlin will support. These use cases are designed to provide a comprehensive overview of the platform's functionality and user interactions. Our group selected the two use cases highlighted in red as the primary focus of our project.
 
 1. **Find Charging Stations**: Users can search for charging stations in Berlin by entering a postal code. The platform will display a map with the location of the charging stations, along with additional information such as the charging type and availability.
-2. **Rating Charging Stations**: Users can rate charging stations in Berlin based on their personal experiences. This feature allows users to share feedback and recommendations with the community, helping others make informed decisions about where to charge their EVs.
+   
+3. **Rating Charging Stations**: Users can rate charging stations in Berlin based on their personal experiences. This feature allows users to share feedback and recommendations with the community, helping others make informed decisions about where to charge their EVs.
 
 ![use_case_diagram.png](img/use_case_diagram.png)
 
@@ -84,9 +85,12 @@ def test_invalid_postal_code(value: str):
 The UI for the Electric Charging Stations project was designed to enhance user interaction, focusing on features like searching for charging stations by postal code and adding ratings to stations.
 
 **Search Functionality**: Users can search for nearby charging stations by entering a postal code. The system returns a list of stations, displaying their name and location.
-Add a Rating: Users can rate charging stations on a scale of 1 to 5, encouraging user feedback and improving service quality.
+
+**Add a Rating**: Users can rate charging stations on a scale of 1 to 5, encouraging user feedback and improving service quality.
 ![use_case_diagram.png](img/1.jpeg)
+
 ![use_case_diagram.png](img/2.jpeg)
+
 **Observed Error**: An AttributeError occurred in the backend due to the missing add_rating method. This was resolved by implementing the necessary backend logic.
 
 # Technical Improvements:
