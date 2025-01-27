@@ -1,11 +1,11 @@
 from dataclasses import dataclass
 from uuid import UUID
 
-from src.charging.domain.value_objects.charging_station_status import (
+from charging.domain.value_objects.charging_station_status import (
     ChargingStationStatus,
 )
-from src.charging.domain.value_objects.charging_station_type import ChargingStationType
-from src.charging.domain.value_objects.postal_code import PostalCode
+from charging.domain.value_objects.charging_station_type import ChargingStationType
+from charging.domain.value_objects.postal_code import PostalCode
 
 
 @dataclass

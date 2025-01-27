@@ -2,9 +2,9 @@ from dataclasses import dataclass
 from datetime import datetime
 from uuid import UUID, uuid4
 
-from src.rating.domain.aggregates.rating import Rating
-from src.rating.domain.events.rating_created import RatingCreated
-from src.rating.infrastructure.repositories.rating_repository import RatingRepository
+from rating.domain.aggregates.rating import Rating
+from rating.domain.events.rating_created import RatingCreated
+from rating.infrastructure.repositories.rating_repository import RatingRepository
 
 
 @dataclass(frozen=True)

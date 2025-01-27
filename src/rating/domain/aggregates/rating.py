@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from uuid import UUID
 
-from src.rating.domain.exceptions.invalid_rating_exception import InvalidRatingException
+from rating.domain.exceptions.invalid_rating_exception import InvalidRatingException
 
 
 @dataclass(frozen=True)

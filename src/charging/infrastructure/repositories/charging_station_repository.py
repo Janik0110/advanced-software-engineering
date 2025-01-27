@@ -1,9 +1,9 @@
 from typing import List
 import sqlite3
 
-from src.charging.domain.value_objects.charging_station_type import ChargingStationType
-from src.charging.domain.value_objects.postal_code import PostalCode
-from src.charging.domain.aggregates.charging_station import ChargingStation
+from charging.domain.value_objects.charging_station_type import ChargingStationType
+from charging.domain.value_objects.postal_code import PostalCode
+from charging.domain.aggregates.charging_station import ChargingStation
 
 
 class ChargingStationRepository:
