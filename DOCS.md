@@ -12,9 +12,10 @@ Nahid Taherkhani - 106597
 
 Urwa Maqsood - 106425
 
-## Deployment link
+## Links
 
 [ChargeHub Deployed](https://janik0110-advanced-software-engineering-srcstreamlit-app-er1bf6.streamlit.app/)
+[GitHub Repository](https://github.com/Janik0110/advanced-software-engineering)
 
 ## Project Overview
 
